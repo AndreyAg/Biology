@@ -1,0 +1,25 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.hero-unit {
+    /*background-color:green;*/
+    /*background-image:url(plant.jpg);*/
+    /*background-width:100%;*/
+    /*background-repeat:no-repeat;*/
+    padding:50px;
+
+}
+
+.justify {
+    text-align: justify;
+}
+
+.headerImg {
+    float:right;
+    border:1px solid #eee;
+    border-radius:10px;
+    margin-left:20px;
+    width:450px;
+}
