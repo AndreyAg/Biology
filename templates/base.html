@@ -34,10 +34,10 @@
 
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li><a href="/">Главная</a></li>
+                    <li {% if currentPage == 'main' %}class="active"{% endif %}><a href="/">Главная</a></li>
                     <li {% if currentPage == 'dress' %}class="active"{% endif %}><a href="dress/">Одевают</a></li>
-                    <li><a href="feed/">Кормят</a></li>
-                    <li><a href="gladden/">Радуют</a></li>
+                    <li {% if currentPage == 'feed' %}class="active"{% endif %}><a href="feed/">Кормят</a></li>
+                    <li {% if currentPage == 'gladden' %}class="active"{% endif %}><a href="gladden/">Радуют</a></li>
                 </ul>
             </div>
         </div>
@@ -51,7 +51,7 @@
     <hr>
 
     <footer>
-        <p>&copy; 2012 Саша Андреев и Дима Иманов </p>
+        <p>&copy; 2012 Александр Андреев</p>
     </footer>
 
 </div>

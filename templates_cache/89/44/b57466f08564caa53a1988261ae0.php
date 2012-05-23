@@ -57,7 +57,13 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 
             <div class=\"nav-collapse\">
                 <ul class=\"nav\">
-                    <li><a href=\"/\">Главная</a></li>
+                    <li ";
+        // line 37
+        if (isset($context["currentPage"])) { $_currentPage_ = $context["currentPage"]; } else { $_currentPage_ = null; }
+        if (($_currentPage_ == "main")) {
+            echo "class=\"active\"";
+        }
+        echo "><a href=\"/\">Главная</a></li>
                     <li ";
         // line 38
         if (isset($context["currentPage"])) { $_currentPage_ = $context["currentPage"]; } else { $_currentPage_ = null; }
@@ -65,8 +71,20 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
             echo "class=\"active\"";
         }
         echo "><a href=\"dress/\">Одевают</a></li>
-                    <li><a href=\"feed/\">Кормят</a></li>
-                    <li><a href=\"gladden/\">Радуют</a></li>
+                    <li ";
+        // line 39
+        if (isset($context["currentPage"])) { $_currentPage_ = $context["currentPage"]; } else { $_currentPage_ = null; }
+        if (($_currentPage_ == "feed")) {
+            echo "class=\"active\"";
+        }
+        echo "><a href=\"feed/\">Кормят</a></li>
+                    <li ";
+        // line 40
+        if (isset($context["currentPage"])) { $_currentPage_ = $context["currentPage"]; } else { $_currentPage_ = null; }
+        if (($_currentPage_ == "gladden")) {
+            echo "class=\"active\"";
+        }
+        echo "><a href=\"gladden/\">Радуют</a></li>
                 </ul>
             </div>
         </div>
@@ -83,7 +101,7 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
     <hr>
 
     <footer>
-        <p>&copy; 2012 Саша Андреев и Дима Иманов </p>
+        <p>&copy; 2012 Александр Андреев</p>
     </footer>
 
 </div>
@@ -114,6 +132,6 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  99 => 49,  94 => 5,  80 => 50,  78 => 49,  61 => 38,  25 => 5,  19 => 1,);
+        return array (  117 => 49,  112 => 5,  98 => 50,  96 => 49,  81 => 40,  74 => 39,  67 => 38,  60 => 37,  25 => 5,  19 => 1,);
     }
 }
