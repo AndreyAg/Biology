@@ -101,7 +101,7 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
     <hr />
 
     <footer>
-        <p>&copy; 2012 Саша Андреев</p>
+        <p>&copy; 2012 Саша Андреев - Это тест</p>
     </footer>
 
 </div>
