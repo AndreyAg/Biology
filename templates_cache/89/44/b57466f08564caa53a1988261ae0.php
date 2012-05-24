@@ -97,11 +97,11 @@ class __TwigTemplate_8944b57466f08564caa53a1988261ae0 extends Twig_Template
         // line 49
         $this->displayBlock('content', $context, $blocks);
         // line 50
-        echo "
-    <hr>
+        echo "    
+    <hr />
 
     <footer>
-        <p>&copy; 2012 Александр Андреев</p>
+        <p>&copy; 2012 Саша Андреев</p>
     </footer>
 
 </div>
