@@ -1,11 +1,17 @@
 <?php
 
 $currentPage = 'main';
-$availablePages = array('main','dress','feed','gladden');
 
 if(isset($_GET['url'])) {
-    $currentPage = str_replace('/', '', $_GET['url']);
-    if(!in_array($currentPage, $availablePages)) {
+    $currentPage = substr($_GET['url'],1);
+
+    if(substr($currentPage, strlen($currentPage) - 1) == '/') {
+        $currentPage = substr($currentPage, 0, strlen($currentPage) - 1);
+    }
+
+    $currentPage = str_replace('/', '-', $currentPage);
+
+    if($currentPage == '' || !file_exists('templates/'.$currentPage.'.twig')) {
         $currentPage = 'main';
     }
 }
