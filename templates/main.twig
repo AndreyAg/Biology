@@ -1,13 +1,17 @@
-{% extends "base.html" %}
+{% extends "base.twig" %}
 
-{% block pageTitle %}Одевают{% endblock %}
+{% block pageTitle %}Главная страница{% endblock %}
 
 {% block content %}
 
     <div class="hero-unit">
-        <h1>Одевают</h1>
+        <h1>Одевают, кормят, радуют ...</h1>
 
         <p style="margin-top:20px">
+
+            {#<img src="img/plant.jpg" class="headerImg" />#}
+
+            <img src="img/greenworld.jpg" class="headerImg" />
 
             <p align="justify">Деревья - главные лесные жители, они определяют весь облик леса и многие его особенности. Именно они дают ту тень и прохладу, которые нам так приятны в летний зной. Под их сенью находят приют множество своеобразных лесных растений, многие животные и птицы.
 
@@ -16,6 +20,39 @@
             <p align="justify">Вытянутость деревьев в лесу - результат совместной, «скученной» жизни, когда ни одно дерево не может свободно разрастаться в ширину. Взаимодействие деревьев, жестокая конкуренция между ними - характернейшая черта леса.
 
         </p>
+
+    </div>
+
+
+    <div class="row">
+        <div class="span4">
+            <h2>Одевают</h2>
+
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                euismod. Donec sed odio dui. </p>
+
+            <p><a class="btn" href="#">Подробнее &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Кормят</h2>
+
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                euismod. Donec sed odio dui. </p>
+
+            <p><a class="btn" href="#">Подробнее &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Радуют</h2>
+
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+                porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                fermentum massa justo sit amet risus.
+            </p>
+
+            <p><a class="btn" href="#">Подробнее &raquo;</a></p>
+        </div>
     </div>
 
 {% endblock %}

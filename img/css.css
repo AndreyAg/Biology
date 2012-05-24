@@ -4,12 +4,7 @@ body {
 }
 
 .hero-unit {
-    /*background-color:green;*/
-    /*background-image:url(plant.jpg);*/
-    /*background-width:100%;*/
-    /*background-repeat:no-repeat;*/
     padding:50px;
-
 }
 
 .justify {
@@ -22,4 +17,29 @@ body {
     border-radius:10px;
     margin-left:20px;
     width:450px;
+}
+
+.navbar-inner {
+    background-image: -moz-linear-gradient(top, #014308, #015c0c);
+    box-shadow: 0 0 10px #000;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color:#ccc;
+}
+
+
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+    background-color:#006400;
+
+}
+
+a.main {
+    background:url(school-icon.png) no-repeat 18px;
+    padding-left: 60px!important;
+}
+
+.hero-unit h1, h2 {
+    color: #1c4e08;
 }

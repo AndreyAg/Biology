@@ -20,7 +20,7 @@ $twig = new Twig_Environment(new Twig_Loader_Filesystem('templates'), array(
     'auto_reload' => true
 ));
 
-$template = $twig->loadTemplate("{$currentPage}.html");
+$template = $twig->loadTemplate("{$currentPage}.twig");
 
 $template->display(array(
     'currentPage' => $currentPage
