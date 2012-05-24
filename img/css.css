@@ -43,3 +43,18 @@ a.main {
 .hero-unit h1, h2 {
     color: #1c4e08;
 }
+
+.nav {
+    margin-bottom: 18px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.nav > li > a {
+    display: block;
+}
+
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: #eeeeee;
+}
