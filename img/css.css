@@ -59,7 +59,24 @@ a.main {
     background-color: #eeeeee;
 }
 
-embed {
-    width:800px;
-    height:800px;
+
+
+.pictRow {
+    text-align:center;
+}
+
+.pictRow img {
+    margin:5px;
+    border:1px solid #eee;
+    border-radius:10px;
+    box-shadow: 0 0 5px #555;
+}
+
+.homeMenu{
+    margin-top: 2px;
+}
+
+.headerName{
+    font-weight: bold;
+    color:#333;
 }

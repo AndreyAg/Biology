@@ -8,11 +8,16 @@
     <h1>Чай</h1>
 
     <p style="margin-top:20px">
-    <p>
-        Работа учениц 6В класса Дарьи Перегудовой и Ахалая Лауры:<br>
-        <embed src="../img/swf/tea.swf"></embed><br>
-        <button class="btn btn-success" onclick="window.location.href='main'">На главную</button>
-        <button class="btn btn-success" onclick="window.location.href='feed'">Кормят</button>
+
+         <p align="center">
+            <div id="swfContainer"></div>
+            <br />Работа учениц 6В класса Дарьи Перегудовой и Ахалая Лауры:
+         </p>
+
+        <script>
+            swfobject.embedSWF("img/swf/tea.swf", "swfContainer", "800", "600", "9.0.0");
+        </script>
+
     </p>
 </div>
 

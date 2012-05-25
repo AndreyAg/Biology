@@ -9,7 +9,9 @@
     <meta name="description" content="Одевают, кормят, радуют"/>
     <meta name="author" content="Саша Андреев"/>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
@@ -43,17 +45,17 @@
 
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li {% if currentPage == 'main' %}class="active"{% endif %}><a href="/">Главная</a></li>
+                    <li {% if currentPage == 'main' %}class="active"{% endif %}><a href="/" class="homeMenu">Главная</a></li>
                     <li {% if currentPage == 'dress' %}class="active"{% endif %}>
                         <ul class="nav nav-pills">
                             <li class="dropdown" id="menu1">
                                 <a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="#menu1">Одевают<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="feed-chitrus">Цитрусовые</a></li>
-                                    <li><a href="feed-tea">Чай</a></li>
-                                    <li><a href="#">Кокос</a></li>
+                                    <li><a href="feed/chitrus">Цитрусовые</a></li>
+                                    <li><a href="feed/tea">Чай</a></li>
+                                    <li><a href="feed/cocos">Кокос</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="dress">Одевают</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -63,11 +65,14 @@
                             <li class="dropdown" id="menu1">
                                 <a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="#menu1">Кормят<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
+                                    {#<li><a href="#">Action</a></li>#}
+                                    {#<li><a href="#">Another action</a></li>#}
+                                    {#<li><a href="#">Something else here</a></li>#}
+                                    {#<li class="divider"></li>#}
+                                    {#<li><a href="feed">Кормят</a></li>#}
+                                    <li><a>В разработке</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="feed">Кормят</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -81,7 +86,7 @@
                                     <li><a href="#">Another action</a></li>
                                     <li><a href="#">Something else here</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="gladden">Радуют</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -99,7 +104,7 @@
     <hr/>
 
     <footer>
-        <p>&copy; 2012 Саша Андреев | Копирование материалов с сайта запрещено</p>
+        <p>&copy; 2012 Саша Андреев</p>
     </footer>
 
 </div>

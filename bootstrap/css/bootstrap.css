@@ -3389,7 +3389,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav-tabs .dropdown-toggle .caret,
 .nav-pills .dropdown-toggle .caret {
-  margin-top: 6px;
+  margin-top: 8px;
   border-top-color: #0088cc;
   border-bottom-color: #0088cc;
 }
