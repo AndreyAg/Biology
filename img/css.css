@@ -58,3 +58,8 @@ a.main {
     text-decoration: none;
     background-color: #eeeeee;
 }
+
+embed {
+    width:800px;
+    height:800px;
+}
