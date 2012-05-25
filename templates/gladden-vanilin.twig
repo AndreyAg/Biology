@@ -1,0 +1,24 @@
+{% extends "base.twig" %}
+
+{% block pageTitle %}Ванильная орхидея{% endblock %}
+
+{% block content %}
+
+<div class="hero-unit">
+    <h1>Ванильная орхидея</h1>
+
+    <p style="margin-top:20px">
+
+    <p align="center">
+    <div id="swfContainer"></div>
+    <br />Работа ученицы 6В класса Анны Битюниковой
+    </p>
+
+    <script>
+        swfobject.embedSWF("img/swf/vanilin.swf", "swfContainer", "800", "600", "9.0.0");
+    </script>
+
+    </p>
+</div>
+
+{% endblock %}

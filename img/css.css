@@ -74,6 +74,7 @@ a.main {
 
 .homeMenu{
     margin-top: 2px;
+    cursor: pointer;
 }
 
 .headerName{
