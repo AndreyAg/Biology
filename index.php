@@ -30,5 +30,4 @@ $template = $twig->loadTemplate("{$currentPage}.twig");
 
 $template->display(array(
     'currentPage' => $currentPage
-//hello world
 ));
